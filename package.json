@@ -1,0 +1,24 @@
+{
+  "name": "cardano-cli-node-boilerplate",
+  "version": "1.0.0",
+  "description": "Example Node project with a Cardanocli-js install rpeconfigured using environment variables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigbenbeer/Cardano-cli-Node-Boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigbenbeer/Cardano-cli-Node-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/bigbenbeer/Cardano-cli-Node-Boilerplate#readme",
+  "dependencies": {
+    "cardanocli-js": "^4.0.1",
+    "dotenv": "^16.0.0"
+  }
+}
