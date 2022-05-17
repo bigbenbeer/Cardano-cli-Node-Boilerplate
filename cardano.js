@@ -3,6 +3,7 @@ require('dotenv').config();
 
 /* This loads the cardanocli-js Javascript wrapper for the Cardano-cli */
 const Cardano = require('cardanocli-js')
+const mintingUtils = require('/UtilityScripts/mingtingUtils.js')
 
 /* Initialize the Cardano object used to run calls to the Cardano node and the CLI */
 const cardano = new Cardano({
